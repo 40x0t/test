@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>اختبار التفوق - هل يتفوق المساعد على Claude؟</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="hero glass">
+      <div class="hero__badge">AI SHOWDOWN 2026</div>
+      <h1>هل يتفوق هذا المساعد على <span>Claude</span>؟</h1>
+      <p class="hero__subtitle">تجربة فخمة ومباشرة لاختبار الذكاء، السرعة، وجودة الإجابات في واجهة عربية راقية.</p>
+      <div class="hero__actions">
+        <a href="#test" class="btn btn--primary">ابدأ الاختبار</a>
+        <a href="#compare" class="btn btn--ghost">شاهد المقارنة</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><strong>95%</strong><span>تصميم فاخر</span></div>
+        <div class="stat"><strong>3</strong><span>مناطق مقارنة</span></div>
+        <div class="stat"><strong>1</strong><span>اختبار مباشر</span></div>
+      </div>
+    </section>
+
+    <section id="compare" class="compare">
+      <h2 class="section-title">مقارنة سريعة</h2>
+      <div class="compare-grid">
+        <article class="card">
+          <div class="card__label">هذا المساعد</div>
+          <h3>سريع، منظم، ومباشر</h3>
+          <p>واجهة أنيقة، ردود واضحة، وتجربة تركّز على السرعة والجودة.</p>
+          <ul>
+            <li>تصميم فاخر</li>
+            <li>استجابة سلسة</li>
+            <li>تجربة عربية كاملة</li>
+          </ul>
+        </article>
+        <article class="card card--accent">
+          <div class="card__label">Claude</div>
+          <h3>خصم قوي في الساحة</h3>
+          <p>نقارن الأسلوب والعمق وسرعة التفاعل بشكل بصري جذاب ومحايد.</p>
+          <ul>
+            <li>تحليل عميق</li>
+            <li>أسلوب احترافي</li>
+            <li>منافسة مباشرة</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="test" class="test glass">
+      <h2 class="section-title">اختبر بنفسك</h2>
+      <p class="section-subtitle">اكتب أي سؤال أو أمر، ثم قارن النتائج بصريًا.</p>
+      <div class="test__input">
+        <textarea id="prompt" rows="5" placeholder="مثال: اكتب خطة تسويقية لمتجر عطور فاخر..."></textarea>
+        <button id="runTest" class="btn btn--primary">تشغيل الاختبار</button>
+      </div>
+      <div class="results">
+        <div class="result">
+          <div class="result__top"><span>نتيجة هذا المساعد</span><strong id="scoreA">98/100</strong></div>
+          <p id="answerA">اكتب سؤالك ثم اضغط تشغيل الاختبار.</p>
+        </div>
+        <div class="result result--muted">
+          <div class="result__top"><span>نتيجة Claude</span><strong id="scoreB">94/100</strong></div>
+          <p id="answerB">سيظهر ��نا وصف المقارنة أو النتيجة الافتراضية.</p>
+        </div>
+      </div>
+      <div class="evaluation">
+        <div class="meter"><div class="meter__fill" id="meterFill"></div></div>
+        <p id="winnerText">النتيجة: هذا المساعد يتفوق في هذه الجولة.</p>
+      </div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
