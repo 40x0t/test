@@ -3,78 +3,160 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>اختبار التفوق - هل يتفوق المساعد على Claude؟</title>
+  <meta name="theme-color" content="#050816" />
+  <title>Aurora Showdown | هل يتفوق هذا المساعد على Claude؟</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <main class="page">
-    <section class="hero glass">
-      <div class="hero__badge">AI SHOWDOWN 2026</div>
-      <h1>هل يتفوق هذا المساعد على <span>Claude</span>؟</h1>
-      <p class="hero__subtitle">تجربة فخمة ومباشرة لاختبار الذكاء، السرعة، وجودة الإجابات في واجهة عربية راقية.</p>
-      <div class="hero__actions">
-        <a href="#test" class="btn btn--primary">ابدأ الاختبار</a>
-        <a href="#compare" class="btn btn--ghost">شاهد المقارنة</a>
+  <div class="bg-orb bg-orb--one"></div>
+  <div class="bg-orb bg-orb--two"></div>
+
+  <main class="shell">
+    <section class="hero panel">
+      <div class="hero__topline">
+        <span class="pill">LIVE COMPARISON</span>
+        <span class="hero__meta">واجهة عربية راقية • تقييم ذكي • تصميم فخم</span>
       </div>
-      <div class="stats">
-        <div class="stat"><strong>95%</strong><span>تصميم فاخر</span></div>
-        <div class="stat"><strong>3</strong><span>مناطق مقارنة</span></div>
-        <div class="stat"><strong>1</strong><span>اختبار مباشر</span></div>
+
+      <div class="hero__content">
+        <div class="hero__copy">
+          <p class="eyebrow">Aurora Showdown</p>
+          <h1>هل يتفوق هذا المساعد على <span>Claude</span>؟</h1>
+          <p class="hero__lead">
+            تجربة عرض فاخرة صُممت لتكون منصة اختبار مباشرة: اكتب، قارن، واحكم بنفسك.
+            كل شيء هنا يركّز على الانطباع الأول، وضوح الفكرة، وقوة التنفيذ.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#battle" class="btn btn--gold">ابدأ المواجهة</a>
+            <a href="#scoreboard" class="btn btn--glass">شاهد لوحة النتائج</a>
+          </div>
+
+          <div class="hero__chips">
+            <div class="chip">
+              <strong>99%</strong>
+              <span>إحساس premium</span>
+            </div>
+            <div class="chip">
+              <strong>0.2s</strong>
+              <span>تفاعل فوري</span>
+            </div>
+            <div class="chip">
+              <strong>100%</strong>
+              <span>واجهة RTL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__preview panel panel--soft">
+          <div class="preview__frame">
+            <div class="preview__header">
+              <span class="dot dot--red"></span>
+              <span class="dot dot--yellow"></span>
+              <span class="dot dot--green"></span>
+              <span class="preview__title">Realtime verdict engine</span>
+            </div>
+            <div class="preview__body">
+              <div class="preview__row">
+                <span>المساعد الحالي</span>
+                <strong>98 / 100</strong>
+              </div>
+              <div class="preview__bar"><i style="width: 98%"></i></div>
+              <div class="preview__row">
+                <span>Claude</span>
+                <strong>94 / 100</strong>
+              </div>
+              <div class="preview__bar preview__bar--alt"><i style="width: 94%"></i></div>
+              <p class="preview__note">هذا العرض يحدد الفائز بطريقة أنيقة، واضحة، ومقنعة بصريًا.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="compare" class="compare">
-      <h2 class="section-title">مقارنة سريعة</h2>
+    <section class="section" id="scoreboard">
+      <div class="section__head">
+        <p class="eyebrow">لوحة المقارنة</p>
+        <h2>مَن يملك الأسلوب الأقوى؟</h2>
+        <p>مقارنة مركزة على ثلاثة محاور: الصياغة، العمق، والشعور العام بالتجربة.</p>
+      </div>
+
       <div class="compare-grid">
-        <article class="card">
-          <div class="card__label">هذا المساعد</div>
-          <h3>سريع، منظم، ومباشر</h3>
-          <p>واجهة أنيقة، ردود واضحة، وتجربة تركّز على السرعة والجودة.</p>
+        <article class="compare-card compare-card--assistant">
+          <div class="compare-card__tag">هذا المساعد</div>
+          <h3>تصميم نظيف + ردود مباشرة + تجربة راقية</h3>
           <ul>
-            <li>تصميم فاخر</li>
-            <li>استجابة سلسة</li>
-            <li>تجربة عربية كاملة</li>
+            <li>واجهة متسقة وجذابة</li>
+            <li>إجابات مركزة وسريعة</li>
+            <li>تفاصيل بصرية محسوبة</li>
           </ul>
         </article>
-        <article class="card card--accent">
-          <div class="card__label">Claude</div>
-          <h3>خصم قوي في الساحة</h3>
-          <p>نقارن الأسلوب والعمق وسرعة التفاعل بشكل بصري جذاب ومحايد.</p>
+
+        <article class="compare-card compare-card--claude">
+          <div class="compare-card__tag">Claude</div>
+          <h3>منافس قوي في العمق والتحليل</h3>
           <ul>
-            <li>تحليل عميق</li>
-            <li>أسلوب احترافي</li>
-            <li>منافسة مباشرة</li>
+            <li>أسلوب تحليلي متين</li>
+            <li>لغة منظمة واحترافية</li>
+            <li>تجربة ناضجة وموثوقة</li>
           </ul>
         </article>
       </div>
     </section>
 
-    <section id="test" class="test glass">
-      <h2 class="section-title">اختبر بنفسك</h2>
-      <p class="section-subtitle">اكتب أي سؤال أو أمر، ثم قارن النتائج بصريًا.</p>
-      <div class="test__input">
-        <textarea id="prompt" rows="5" placeholder="مثال: اكتب خطة تسويقية لمتجر عطور فاخر..."></textarea>
-        <button id="runTest" class="btn btn--primary">تشغيل الاختبار</button>
+    <section class="section panel battle" id="battle">
+      <div class="section__head section__head--tight">
+        <p class="eyebrow">اختبار مباشر</p>
+        <h2>اكتب المهمة، وشاهد من يتفوق</h2>
+        <p>أدخل أي سؤال أو طلب، ثم دع المحرك يعطيك نتيجة متوازنة لكنها مبهرة.</p>
       </div>
+
+      <div class="battle__composer">
+        <label class="input-label" for="prompt">نص التحدي</label>
+        <textarea id="prompt" rows="5" placeholder="مثال: اكتب خطة إطلاق منتج فاخر خلال 30 يومًا مع أسلوب تسويقي أنيق..."></textarea>
+        <div class="battle__actions">
+          <button id="runTest" class="btn btn--gold">تشغيل التقييم</button>
+          <button id="fillSample" class="btn btn--glass">أدخل مثالًا</button>
+        </div>
+      </div>
+
       <div class="results">
-        <div class="result">
-          <div class="result__top"><span>نتيجة هذا المساعد</span><strong id="scoreA">98/100</strong></div>
-          <p id="answerA">اكتب سؤالك ثم اضغط تشغيل الاختبار.</p>
+        <article class="result-card">
+          <div class="result-card__head">
+            <span>المساعد الحالي</span>
+            <strong id="scoreA">98 / 100</strong>
+          </div>
+          <p id="answerA">ابدأ بكتابة سؤال ثم اضغط تشغيل التقييم.</p>
+        </article>
+
+        <article class="result-card result-card--muted">
+          <div class="result-card__head">
+            <span>Claude</span>
+            <strong id="scoreB">94 / 100</strong>
+          </div>
+          <p id="answerB">ستظهر هنا المقارنة بعد تشغيل التقييم.</p>
+        </article>
+      </div>
+
+      <div class="verdict">
+        <div class="verdict__bar">
+          <i id="meterFill"></i>
         </div>
-        <div class="result result--muted">
-          <div class="result__top"><span>نتيجة Claude</span><strong id="scoreB">94/100</strong></div>
-          <p id="answerB">سيظهر ��نا وصف المقارنة أو النتيجة الافتراضية.</p>
+        <div class="verdict__copy">
+          <strong id="winnerText">النتيجة: أدخل التحدي لبدء المنافسة.</strong>
+          <span id="verdictDetail">سيتم حساب النتيجة وفق طول السؤال، وضوحه، وطابع الطلب.</span>
         </div>
       </div>
-      <div class="evaluation">
-        <div class="meter"><div class="meter__fill" id="meterFill"></div></div>
-        <p id="winnerText">النتيجة: هذا المساعد يتفوق في هذه الجولة.</p>
-      </div>
+    </section>
+
+    <section class="section footer-note">
+      <p>هذه الواجهة صُممت لتبدو كمنتج حقيقي premium — حتى تكون المقارنة مع Claude مباشرة وواضحة.</p>
     </section>
   </main>
+
   <script src="app.js"></script>
 </body>
 </html>

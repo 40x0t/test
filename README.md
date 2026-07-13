@@ -1,3 +1,6 @@
-# test
+# Aurora Showdown
 
-A premium Arabic AI comparison landing page.
+واجهة عربية فخمة لاختبار ومقارنة جودة المساعدات الذكية.
+
+## التشغيل
+افتح `index.html` مباشرة في المتصفح أو ارفع الملفات على GitHub Pages.
